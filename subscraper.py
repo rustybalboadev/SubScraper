@@ -25,11 +25,11 @@ while True:
     (5). Rising
     ''').lower()
 
-    reddit = praw.Reddit(client_id='sqFdPyHILCU5WA',
-    client_secret='B0gFCfhEMCv9i1DfDNQr8wVGsyY',
+    reddit = praw.Reddit(client_id='',
+    client_secret='',
     user_agent='pyTerm',
-    username = 'Roosty_Balboa',
-    password = 'Redstone04')
+    username = ',
+    password = '')
     subreddit = reddit.subreddit(sub)
     if choice == "1":
         posts = subreddit.hot(limit=500)
